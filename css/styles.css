@@ -80,8 +80,16 @@ a {
   margin-bottom: 40px;
 }
 .favorite-img {
+  border-radius: 291px;
+  width: 528px;
+  height: 528px;
+  border: 26px solid #ffe550;
 }
-
+.favorite-img-box {
+  height: 580px;
+  width: 580px;
+  padding: 26px;
+}
 /* section2 */
 .offerings {
   background: #ffe550;
