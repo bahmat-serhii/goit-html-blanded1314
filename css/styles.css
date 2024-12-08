@@ -15,3 +15,105 @@ body {
   line-height: 1.5;
   color: #2c2c2c;
 }
+p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* header */
+.nav-list-item {
+}
+.header-btn {
+  background: #bbf330;
+  font-weight: 500;
+  font-size: 13px;
+}
+/* section1 */
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+}
+.title-text {
+}
+
+/* section2 */
+.offerings {
+  background: #ffe550;
+}
+.offerings-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.offerings-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.offerings-btn {
+  background: #fff;
+  font-weight: 500;
+  font-size: 13px;
+}
+/* section3 */
+.favorites-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.favorites-title-text {
+  font-size: 16px;
+}
+/* section4 */
+.customers-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.customers-title-text {
+  font-size: 16px;
+}
+.customers-list-item-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.customers-list-item-text-medium {
+  font-weight: 500;
+}
+.customers {
+  background: #ffe550;
+}
+/* section5 */
+.subscribe-title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+}
+.subscribe-title-text {
+  font-size: 16px;
+}
+.subscribe-btn {
+  background: #bbf330;
+  font-weight: 500;
+  font-size: 13px;
+}
+/* footer */
+.footer-subscribe-title {
+  font-weight: 500;
+}
+.footer-subscribe-text {
+  font-size: 12px;
+}
+.footer-nav-list-item {
+  font-size: 12px;
+  color: #7eb101;
+}
+.footer-subscribe-text-contacts {
+  font-size: 12px;
+}
+.footer-subscribe-btn {
+  background: #fff;
+  font-weight: 500;
+  font-size: 13px;
+}
