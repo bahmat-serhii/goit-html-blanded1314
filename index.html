@@ -12,38 +12,46 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- header -->
-    <header>
+    <header class="header-container">
       <img src="./images/Vector.png" alt="logo" />
-      <nav>
-        <ul>
-          <li><a class="nav-list-item" href=".index.html">Home</a></li>
-          <li><a class="nav-list-item" href="">About</a></li>
-          <li><a class="nav-list-item" href="">Service</a></li>
-          <li><a class="nav-list-item" href="">Menu</a></li>
-          <li><a class="nav-list-item" href="">Contact</a></li>
-        </ul>
-      </nav>
-      <button class="header-btn">Order Now</button>
+      <div class="nav">
+        <nav>
+          <ul class="nav-list">
+            <li><a class="nav-list-item" href=".index.html">Home</a></li>
+            <li><a class="nav-list-item" href="">About</a></li>
+            <li><a class="nav-list-item" href="">Service</a></li>
+            <li><a class="nav-list-item" href="">Menu</a></li>
+            <li><a class="nav-list-item" href="">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="header-btn">Order Now</button>
+      </div>
     </header>
     <!-- main -->
     <main>
       <!-- section1 -->
-      <section>
-        <h1 class="title">Enjoy Your Favorite Food From Anywhere</h1>
-        <p class="title-text">
-          With just a few clicks, you can have your favorite meals delivered
-          straight to your doorstep, no matter where you are. Order now and
-          enjoy a hassle-free and delicious meal from the comfort of your own
-          home.
-        </p>
-        <button class="header-btn">Order Now</button>
+      <section class="favorite">
+        <div>
+          <h1 class="title">Enjoy Your Favorite Food From Anywhere</h1>
+          <p class="title-text">
+            With just a few clicks, you can have your favorite meals delivered
+            straight to your doorstep, no matter where you are. Order now and
+            enjoy a hassle-free and delicious meal from the comfort of your own
+            home.
+          </p>
+          <button class="header-btn">Order Now</button>
+        </div>
         <img
+          class="favorite-img"
           src="./images/pngwing.com - 2022-08-04T071142 2.png"
           alt="salads"
         />
