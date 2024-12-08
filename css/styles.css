@@ -19,6 +19,13 @@ p {
   font-weight: 400;
   font-size: 14px;
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
 
 /* header */
 .nav-list-item {
@@ -105,7 +112,7 @@ p {
 .footer-subscribe-text {
   font-size: 12px;
 }
-.footer-nav-list-item {
+.footer-policy-list-item {
   font-size: 12px;
   color: #7eb101;
 }
