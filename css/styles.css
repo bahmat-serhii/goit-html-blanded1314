@@ -63,7 +63,7 @@ img {
   gap: 28px;
 }
 .header-btn {
-  background: #bbf330;
+  background-color: #bbf330;
   font-weight: 500;
   font-size: 13px;
   border-radius: 30px;
@@ -72,6 +72,9 @@ img {
   height: 32px;
   border: none;
   cursor: pointer;
+}
+.header-btn:hover {
+  background-color: #ffe450;
 }
 /* section1 */
 .favorite {
@@ -177,7 +180,7 @@ img {
   margin-bottom: 32px;
 }
 .offerings-btn {
-  background: #fff;
+  background-color: #fff;
   font-weight: 500;
   font-size: 13px;
   border: 2px solid #7eb101;
@@ -186,6 +189,9 @@ img {
   width: 106px;
   height: 40px;
   cursor: pointer;
+}
+.offerings-btn:hover {
+  background-color: #bbf330;
 }
 /* section3 */
 .favorites {
@@ -234,6 +240,9 @@ img {
   height: 395px;
   width: 395px;
   display: flex;
+}
+.favorites-list-item-box:hover {
+  border: 16px solid #bbf330;
 }
 .favorites-list-item-img {
   padding: 24px;
@@ -346,8 +355,44 @@ img {
   width: 395px;
   height: 42px;
 }
+input::placeholder {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #505050;
+}
+input:focus:valid {
+  border: 0.85px solid #7eb101;
+}
+input:focus:invalid {
+  border: 0.85px solid #ff705d;
+}
+input:focus {
+  outline: 0;
+}
+.subscribe-text-hidden-box {
+  display: flex;
+  visibility: hidden;
+
+  margin-top: 4px;
+}
+.subscribe-text-hidden {
+  width: 216px;
+  height: 15px;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.5;
+  color: #ff705d;
+}
+.subscribe-text-hidden-box-img {
+  padding-top: 2px;
+  margin-right: 4px;
+}
+input:focus:invalid + .subscribe-text-hidden-box {
+  visibility: visible;
+}
 .subscribe-btn {
-  background: #bbf330;
+  background-color: #bbf330;
   font-weight: 500;
   font-size: 13px;
   border-radius: 30px;
@@ -356,6 +401,9 @@ img {
   height: 42px;
   border: none;
   cursor: pointer;
+}
+.subscribe-btn:hover {
+  background-color: #ffe450;
 }
 /* footer */
 .footer-container {
@@ -402,7 +450,7 @@ img {
   margin-bottom: 12px;
 }
 .footer-input {
-  border: 0.85px solid #ffe550;
+  border: 2px solid #ffe550;
   border-radius: 30px;
   padding: 10px;
   width: 279px;
@@ -424,15 +472,18 @@ img {
   height: 14px;
 }
 .footer-subscribe-btn {
-  background: #fff;
+  background-color: #fff;
   font-weight: 500;
   font-size: 13px;
   cursor: pointer;
-  border: 0.85px solid #7eb101;
+  border: 2px solid #7eb101;
   border-radius: 30px;
   padding: 10px 20px;
   width: 103px;
   height: 42px;
+}
+.footer-subscribe-btn:hover {
+  border: 2px solid #ffe450;
 }
 .footer-policy {
   display: flex;
